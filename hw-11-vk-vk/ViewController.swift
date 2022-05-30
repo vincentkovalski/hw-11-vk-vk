@@ -9,10 +9,38 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+
+
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        setupHierarchy()
+        setupLayout()
+        setupView()
+
     }
+
+
+
+    // MARK: - Settings
+
+    private func setupHierarchy() {
+    }
+
+    private func setupLayout() {
+    }
+
+    private func setupView() {
+        view.backgroundColor = .systemOrange
+    }
+
+    // MARK: - private function
+
+
+    // MARK: - CONSTANTS
+
 
 
 }
