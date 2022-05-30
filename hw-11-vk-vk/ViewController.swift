@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageMain: UIImageView!
+    @IBOutlet weak var labelSymbolTextOnline: UILabel!
 
 
 
@@ -33,7 +35,21 @@ class ViewController: UIViewController {
     }
 
     private func setupView() {
-        view.backgroundColor = .systemOrange
+
+        imageMain.layer.masksToBounds = true
+        imageMain.layer.cornerRadius = imageMain.frame.height / 2
+
+//        let attachment = NSTextAttachment()
+//        attachment.image = UIImage(systemName: "q.square")
+//
+//        let imageString = NSMutableAttributedString(attachment: attachment)
+//        let textString = NSAttributedString(string: "online")
+//        imageString.append(textString)
+//        labelSymbolTextOnline.attributedText = imageString
+
+
+
+
     }
 
     // MARK: - private function
