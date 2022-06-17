@@ -1,19 +1,20 @@
-//
-//  ViewController.swift
-//  hw-11-vk-vk
-//
-//  Created by Виктор Ковалевский on 30.05.2022.
-//
-
 import UIKit
-
 class ViewController: UIViewController {
-
+    @IBOutlet weak var imageMain: UIImageView!
+    @IBOutlet weak var labelSymbolTextOnline: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupHierarchy()
+        setupLayout()
+        setupView()
     }
-
-
+    private func setupHierarchy() {
+    }
+    private func setupLayout() {
+    }
+    private func setupView() {
+        imageMain.layer.masksToBounds = true
+        imageMain.layer.cornerRadius = imageMain.frame.height / 2
+    }
 }
 
