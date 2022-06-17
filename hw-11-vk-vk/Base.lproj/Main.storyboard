@@ -289,7 +289,6 @@
         <image name="iphone.smartbatterycase.gen2" catalog="system" width="108" height="128"/>
         <image name="photo" catalog="system" width="128" height="93"/>
         <image name="play" catalog="system" width="120" height="128"/>
-        <image name="snowflake" catalog="system" width="121" height="128"/>
         <image name="square.and.pencil" catalog="system" width="128" height="115"/>
     </resources>
 </document>
